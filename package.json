@@ -1,11 +1,13 @@
 {
   "name": "lcov-to-sonar-generic",
   "version": "0.0.1",
-  "description": "",
+  "description": "Converts lcov to SonarQube's generic code coverage format.",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lcov-to-sonar": "./index.js"
   },
   "author": "stanah",
   "license": "MIT",
